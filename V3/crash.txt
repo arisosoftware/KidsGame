@@ -1,0 +1,10 @@
+main threw an exception:
+java.lang.NullPointerException
+	at java.util.zip.InflaterInputStream.<init>(InflaterInputStream.java:83)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:77)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91)
+	at de.gurkenlabs.litiengine.resources.ResourceBundle.getGameFileFromFile(ResourceBundle.java:202)
+	at de.gurkenlabs.litiengine.resources.ResourceBundle.load(ResourceBundle.java:88)
+	at de.gurkenlabs.litiengine.resources.Resources.load(Resources.java:155)
+	at de.gurkenlabs.litiengine.resources.Resources.load(Resources.java:142)
+	at de.gurkenlabs.ldjam44.Program.main(Program.java:34)
