@@ -73,13 +73,13 @@ public class AnimSample extends GameApplication {
                 .view(new Rectangle(40, 40, Color.BLUE))
                 .buildAndAttach();
 
-//        anim = animationBuilder()
-//                .duration(Duration.seconds(2))
-//                .translate(e)
-//                .from(new Point2D(100, 100))
-//                .to(new Point2D(200, 100))
-//                .build();
-//        anim.start();
+        anim = animationBuilder()
+                .duration(Duration.seconds(2))
+                .translate(e)
+                .from(new Point2D(100, 100))
+                .to(new Point2D(200, 100))
+                .build();
+        anim.start();
 
         // animation channel from multiple images
 

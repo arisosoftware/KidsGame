@@ -1,0 +1,30 @@
+{
+  "uniqueID" : 3,
+  "nodes" : {
+    "0" : {
+      "type" : "START",
+      "text" : "*This man looks familiar to you, but you can't quite place him in your memories.*"
+    },
+    "2" : {
+      "type" : "END",
+      "text" : "*He stares at the horizon, as if expecting something or someone to appear.*"
+    }
+  },
+  "choiceNodes" : { },
+  "edges" : [ {
+    "sourceID" : 0,
+    "targetID" : 2
+  } ],
+  "choiceEdges" : [ ],
+  "version" : 1,
+  "uiMetadata" : {
+    "0" : {
+      "x" : 40.0,
+      "y" : 440.0
+    },
+    "2" : {
+      "x" : 520.0,
+      "y" : 440.0
+    }
+  }
+}

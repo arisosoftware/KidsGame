@@ -232,7 +232,7 @@ public class MarioApp extends GameApplication {
 
 		set("levelTime", 0.0);
 
-		Level level = setLevelFromMap("tmx/level" + levelNum + ".tmx");
+		Level level = setLevelFromMap("/tmx/level" + levelNum + ".tmx");
 
 		var shortestTime = level.getProperties().getDouble("star1time");
 
